@@ -1,0 +1,47 @@
+# Environment Variables & Secrets
+.env
+.env.local
+.env.*.local
+**/.env
+**/.env.local
+**/.env.*.local
+*.pem
+*.key
+**/*.pem
+**/*.key
+
+# Internal Team / AI Instruction Documents (Confidential)
+README_PROTOTYPE_AI.md
+README_PROTOTYPE_AI*.md
+TASK_LOG.md
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Production Builds & Framework Outputs
+.next/
+**/.next/
+out/
+build/
+dist/
+.vercel
+
+# Python Backend Cache & Virtual Environments
+__pycache__/
+*.pyc
+venv/
+env/
+.venv/
+
+# OS Generated Files
+.DS_Store
+Thumbs.db
+
+# IDE & Editor Configuration
+.vscode/
+.idea/
+
+# Logs
+*.log
+npm-debug.log*
