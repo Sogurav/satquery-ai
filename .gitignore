@@ -33,6 +33,7 @@ __pycache__/
 venv/
 env/
 .venv/
+backend/.venv/
 
 # OS Generated Files
 .DS_Store
@@ -45,3 +46,9 @@ Thumbs.db
 # Logs
 *.log
 npm-debug.log*
+
+# Python Test Cache
+.pytest_cache/
+
+# Satellite test images
+backend/test_*.png
